@@ -18,7 +18,7 @@ function verificar(){
             genero = 'Masculino'
             if (idade >= 0 && idade < 12){
                 //Criança
-                img.setAttribute('src', 'manha.jpg')
+                //img.setAttribute('src', 'manha.jpg') era apenas para testar imagens no if
                 fase = 'criança'
             }
             else if (idade >= 12 && idade < 21){
